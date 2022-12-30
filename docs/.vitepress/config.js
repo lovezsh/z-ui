@@ -1,5 +1,6 @@
 export default {
   title: 'Z-UI',
+  dest: './dist',
   themeConfig: {
     siteTitle: '@zoer98/z-ui',
     nav: [
@@ -23,13 +24,21 @@ export default {
       {
         text: '组件配置',
         items: [
-          { text: 'button', link: '/compoents/button' },
+          { text: 'button - 按钮', link: '/compoents/button' },
+          { text: 'input - 输入框', link: '/compoents/input' },
+          { text: 'layout - 布局', link: '/compoents/layout' },
         ]
-      }
+      },
+      {
+        text: '其他',
+        items: [
+          { text: '团队', link: '/team' },
+        ]
+      },
     ],
     editLink: {
       pattern: 'https://github.com/zoer98/z-ui/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: '在GitHub中编辑'
     },
     footer: {
       message: 'Released under the MIT License.',
@@ -37,5 +46,3 @@ export default {
     }
   }
 }
-
-import index from '../../static/index.css'
