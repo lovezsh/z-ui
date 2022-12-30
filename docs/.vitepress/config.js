@@ -1,6 +1,6 @@
 export default {
   title: 'Z-UI',
-  dest: './dist',
+  dest: '/dist',
   themeConfig: {
     siteTitle: '@zoer98/z-ui',
     nav: [
