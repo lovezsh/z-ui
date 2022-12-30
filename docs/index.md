@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: Z-UI
-  text: A small, self-use css ui library
+  text: 一个简单的css库，极小，极速，开箱即用，风格独特。
   tagline: Read More...
   image:
-    src: /logo.png
+    src: https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/logo.1lo14v54zgw0.webp
     alt: VitePress
   actions:
     - theme: brand
@@ -28,3 +28,9 @@ features:
     details: 代码简单，一看就用
 
 ---
+
+<style>
+.VPHero.has-image .text {
+  font-size: 18px;
+}
+</style>
