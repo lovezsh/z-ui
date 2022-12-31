@@ -40,8 +40,10 @@
 .z-wrap .z-item {
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+}
+.z-wrap .z-item.column {
+  flex-wrap: wrap;
 }
 
 .z-button {
