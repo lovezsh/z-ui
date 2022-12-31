@@ -1,4 +1,5 @@
 ![Logo](https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/logo.1lo14v54zgw0.webp)
+
 # Z-UI
 
 一个简单的css库，极小，极速，开箱即用，风格独特。
@@ -26,8 +27,9 @@ https://cdn.staticaly.com/gh/zoer98/z-ui@main/static/index.min.css
 
 ```html
 <!-- 使用按钮模板 -->
-<z-button>text</z-button>
-<z-button type="success">text</z-button>
+<div class="z-wrap">
+  <button class="z-button">Default</button>
+</div>
 ```
 ## Author
 

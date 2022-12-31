@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档
-      link: /guide/getting-started
+      link: /guide/index
     - theme: alt
       text: GitHub
       link: https://github.com/zoer98/z-ui

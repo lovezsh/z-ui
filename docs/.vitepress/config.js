@@ -1,15 +1,18 @@
 export default {
   title: 'Z-UI',
   dest: '/dist',
+  lastUpdated: true,
   themeConfig: {
     siteTitle: '@zoer98/z-ui',
     nav: [
       { text: '指南', link: '/guide/index' },
       { text: '组件', link: '/compoents/button' },
+      { text: '版本日志', link: '/version' },
       {
         text: '其他',
         items: [
           { text: '英文/en', link: '/guide/en' },
+          { text: '团队', link: '/team' },
         ]
       }
     ],
@@ -33,6 +36,7 @@ export default {
         text: '其他',
         items: [
           { text: '团队', link: '/team' },
+          { text: '版本日志', link: '/version' },
         ]
       },
     ],
@@ -40,6 +44,7 @@ export default {
       pattern: 'https://github.com/zoer98/z-ui/edit/main/docs/:path',
       text: '在GitHub中编辑'
     },
+    lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present zoer98'
