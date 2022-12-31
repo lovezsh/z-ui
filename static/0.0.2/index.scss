@@ -1,0 +1,130 @@
+:root {
+  --default: #1e293b;
+  --default-bg: #1e293bcc;
+  --primary: #1051ba;
+  --primary-bg: #1051bacc;
+  --success: #10b981;
+  --success-bg: #10b981cc;
+  --error: #ef4444;
+  --error-bg: #ef4444cc;
+  --warning: #f59e0b;
+  --warning-bg: #f59e0bcc;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  transition: all 0.1s linear;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font: inherit;
+}
+
+.z-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .z-button {
+    margin-bottom: 10px;
+
+    &:nth-child(n + 2) {
+      margin-left: 15px;
+    }
+  }
+
+  label {
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+}
+
+// layout
+.z-wrap {
+  .z-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    &.column {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+// button
+.z-button {
+  background: #ffffff;
+  border: 2px solid var(--default);
+  color: var(--default);
+  box-shadow: 0.2rem 0.2rem 0 0 var(--default);
+  padding: 4px 10px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 1px 2px 10px var(--default-bg);
+  }
+
+  &.primary {
+    box-shadow: 0.2rem 0.2rem 0 0 var(--primary);
+    border-color: var(--primary);
+    color: var(--primary);
+
+    &:hover {
+      box-shadow: 1px 2px 10px var(--primary-bg);
+    }
+  }
+
+  &.success {
+    box-shadow: 0.2rem 0.2rem 0 0 var(--success);
+    border-color: var(--success);
+    color: var(--success);
+
+    &:hover {
+      box-shadow: 1px 2px 10px var(--success-bg);
+    }
+  }
+
+  &.error {
+    box-shadow: 0.2rem 0.2rem 0 0 var(--error);
+    border-color: var(--error);
+    color: var(--error);
+
+    &:hover {
+      box-shadow: 1px 2px 10px var(--error-bg);
+    }
+  }
+
+  &.warning {
+    box-shadow: 0.2rem 0.2rem 0 0 var(--warning);
+    border-color: var(--warning);
+    color: var(--warning);
+
+    &:hover {
+      box-shadow: 1px 2px 10px var(--warning-bg);
+    }
+  }
+}
+
+// input
+.z-input {
+  background: #ffffff;
+  border: 2px solid var(--default);
+  color: var(--default);
+  box-shadow: 0.2rem 0.2rem 0 0 var(--default);
+  padding: 2px 10px;
+  width: 240px;
+}
+
+.z-wrap {
+  .z-item:nth-child(n + 2) {
+    margin-left: 15px;
+  }
+}
+
+.z-item {
+  .z-input {
+    width: 100%;
+  }
+}
