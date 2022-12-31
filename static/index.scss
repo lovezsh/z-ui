@@ -63,9 +63,7 @@
   cursor: pointer;
 
   &:hover {
-    background: var(--default);
-    color: #fff;
-    box-shadow: 0.2rem 0.2rem 0 0 var(--default-bg);
+    box-shadow: 1px 2px 10px var(--default-bg);
   }
 
   &.primary {
@@ -74,9 +72,7 @@
     color: var(--primary);
 
     &:hover {
-      background: var(--primary);
-      color: #fff;
-      box-shadow: 0.2rem 0.2rem 0 0 var(--primary-bg);
+      box-shadow: 1px 2px 10px var(--primary-bg);
     }
   }
 
@@ -86,9 +82,7 @@
     color: var(--success);
 
     &:hover {
-      background: var(--success);
-      color: #fff;
-      box-shadow: 0.2rem 0.2rem 0 0 var(--success-bg);
+      box-shadow: 1px 2px 10px var(--success-bg);
     }
   }
 
@@ -98,9 +92,7 @@
     color: var(--error);
 
     &:hover {
-      background: var(--error);
-      color: #fff;
-      box-shadow: 0.2rem 0.2rem 0 0 var(--error-bg);
+      box-shadow: 1px 2px 10px var(--error-bg);
     }
   }
 
@@ -110,9 +102,7 @@
     color: var(--warning);
 
     &:hover {
-      background: var(--warning);
-      color: #fff;
-      box-shadow: 0.2rem 0.2rem 0 0 var(--warning-bg);
+      box-shadow: 1px 2px 10px var(--warning-bg);
     }
   }
 }
