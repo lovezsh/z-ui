@@ -42,7 +42,7 @@ export default {
     ],
     editLink: {
       pattern: 'https://github.com/zoer98/z-ui/edit/main/docs/:path',
-      text: '在GitHub中编辑'
+      text: '在 GitHub 上编辑此页'
     },
     lastUpdatedText: '最后更新',
     footer: {
