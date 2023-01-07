@@ -1,5 +1,5 @@
 
-![Logo](https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/logo.1lo14v54zgw0.webp)
+![Logo](https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/20230107/logo.4bhee1cs6hy0.webp)
 
 # Z-UI
 

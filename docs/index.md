@@ -6,7 +6,7 @@ hero:
   text: 一个简单的css库，极小，极速，开箱即用，风格独特。
   tagline: Read More...
   image:
-    src: https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/logo.1lo14v54zgw0.webp
+    src: https://cdn.staticaly.com/gh/zoer98/pic-cdn@main/20230107/logo.4bhee1cs6hy0.webp
     alt: VitePress
   actions:
     - theme: brand
